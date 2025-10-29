@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background: linear-gradient(135deg, #668cd3, #5d6d84);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.btn-big {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    border-radius: 20%;
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #00A74A;
+}
+
+
+.btn2 {
+    background-color: #9F0F17;
+}
+
+
+.btn3 {
+    background-color: #CCA707;
+}
+
+
+.btn4 {
+    background-color: #094A8F;
+}
+
+.blink {
+    background-color: white;
+}
+
+.user {
+    background-color: rgb(3, 1, 1);
+}
+
+.score-container {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.score-container p {
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
